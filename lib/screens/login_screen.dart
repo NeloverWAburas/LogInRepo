@@ -38,7 +38,7 @@ class LoginScreen extends StatelessWidget {
             )
           ],
         ),
-        SizedBox(height:20),
+        SizedBox(height: 30),
         Form(
           child: Container(
             decoration: BoxDecoration(
@@ -46,24 +46,37 @@ class LoginScreen extends StatelessWidget {
             ),
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(children: [
-              TextFormField(
-                decoration: InputDecoration(
-                  contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                  hintText: "Email or Phone number",
-                  border: InputBorder.none,
+              Card(
+                shape: RoundedRectangleBorder(
+                  side: BorderSide(
+                    color: Theme.of(context).colorScheme.outline,
+                  ),
+                  borderRadius: const BorderRadius.all(Radius.circular(12)),
                 ),
-              ),
-              TextFormField(
-                decoration: InputDecoration(
-                  contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                  hintText: "Password",
-                  border: InputBorder.none,
+                  child: Column(children: [
+                TextFormField(
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                    hintText: "Email or Phone number",
+                    border: InputBorder.none,
+                  ),
                 ),
-              ),
+                TextFormField(
+                  decoration: InputDecoration(
+                    contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                    hintText: "Password",
+                    border: InputBorder.none,
+                  ),
+                ),
+              ])),
+              SizedBox(height: 30),
               ElevatedButton(
                 onPressed: () {},
                 child: Text("Login"),
-                style: ButtonStyle(),
+                style: ButtonStyle(
+                  backgroundColor: Color(0xff517bca),
+                  //padding: EdgeInsets.symmetric(horizontal: 10),
+                ),
               ),
             ]),
           ),
