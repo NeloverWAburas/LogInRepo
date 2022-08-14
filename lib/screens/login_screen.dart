@@ -47,34 +47,34 @@ class LoginScreen extends StatelessWidget {
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(children: [
               Card(
-                shape: RoundedRectangleBorder(
-                  side: BorderSide(
-                    color: Theme.of(context).colorScheme.outline,
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(
+                      color: Theme.of(context).colorScheme.outline,
+                    ),
+                    borderRadius: const BorderRadius.all(Radius.circular(12)),
                   ),
-                  borderRadius: const BorderRadius.all(Radius.circular(12)),
-                ),
                   child: Column(children: [
-                TextFormField(
-                  decoration: InputDecoration(
-                    contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                    hintText: "Email or Phone number",
-                    border: InputBorder.none,
-                  ),
-                ),
-                TextFormField(
-                  decoration: InputDecoration(
-                    contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                    hintText: "Password",
-                    border: InputBorder.none,
-                  ),
-                ),
-              ])),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                        hintText: "Email or Phone number",
+                        border: InputBorder.none,
+                      ),
+                    ),
+                    TextFormField(
+                      decoration: InputDecoration(
+                        contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                        hintText: "Password",
+                        border: InputBorder.none,
+                      ),
+                    ),
+                  ])),
               SizedBox(height: 30),
               ElevatedButton(
                 onPressed: () {},
                 child: Text("Login"),
                 style: ButtonStyle(
-                  backgroundColor: Color(0xff517bca),
+                  //backgroundColor: Color(0xff517bca),
                   //padding: EdgeInsets.symmetric(horizontal: 10),
                 ),
               ),
