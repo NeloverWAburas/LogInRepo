@@ -42,7 +42,7 @@ class LoginScreen extends StatelessWidget {
         Form(
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.red,
+              //color: Colors.red,
             ),
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(children: [
@@ -69,14 +69,14 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                   ])),
-              SizedBox(height: 30),
+              SizedBox(height: 25),
               ElevatedButton(
                 onPressed: () {},
                 child: Text("Login"),
                 style: ButtonStyle(
-                  //backgroundColor: Color(0xff517bca),
-                  //padding: EdgeInsets.symmetric(horizontal: 10),
-                ),
+                    //backgroundColor: Color(0xff517bca),
+                    //padding: EdgeInsets.symmetric(horizontal: 10),
+                    ),
               ),
             ]),
           ),
