@@ -62,7 +62,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                     Divider(
-                      height: 1,
+                      height: .5,
                       thickness: 1,
                       indent: 5,
                       endIndent: 5,
