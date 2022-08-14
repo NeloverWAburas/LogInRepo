@@ -83,7 +83,7 @@ class LoginScreen extends StatelessWidget {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Color(0xff517bca),
+                      Color(0xffb2e00b),
                       Colors.white,
                     ],
                   ),
