@@ -76,10 +76,10 @@ class LoginScreen extends StatelessWidget {
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Color(0xff517bca)),
                   padding: MaterialStateProperty.all(
-                      EdgeInsets.symmetric(horizontal: 140,vertical: 20)),
+                      EdgeInsets.symmetric(horizontal: 140, vertical: 20)),
                 ),
               ),
-              SizedBox(height: 50),
+              SizedBox(height: 40),
               TextButton(
                 child: const Text('Forgot Password?'),
                 onPressed: () {/* ... */},
