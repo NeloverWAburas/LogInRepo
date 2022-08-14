@@ -61,6 +61,13 @@ class LoginScreen extends StatelessWidget {
                         border: InputBorder.none,
                       ),
                     ),
+                    Divider(
+                      height: 2,
+                      thickness: 2,
+                      indent: 5,
+                      endIndent:5,
+                      color: Colors.grey,
+                    ),
                     TextFormField(
                       decoration: InputDecoration(
                         contentPadding: EdgeInsets.symmetric(horizontal: 10),
