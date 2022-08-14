@@ -98,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {},
                       child: Padding(
                         padding:
-                            EdgeInsets.symmetric(horizontal: 120, vertical: 10),
+                            EdgeInsets.symmetric(horizontal: 120, vertical: 13),
                         child: Text("Login"),
                       ),
                       style: ElevatedButton.styleFrom(
@@ -111,7 +111,10 @@ class LoginScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 40),
                   TextButton(
-                    child: const Text('Forgot Password?',style: TextStyle(color:Color(0xff517bca)),),
+                    child: const Text(
+                      'Forgot Password?',
+                      style: TextStyle(color: Color(0xff517bca)),
+                    ),
                     onPressed: () {/* ... */},
                   ),
                 ]),
