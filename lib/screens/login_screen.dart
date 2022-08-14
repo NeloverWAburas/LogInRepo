@@ -74,9 +74,9 @@ class LoginScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text("Login"),
                 style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(Color(0xff517bca)),
-                    padding: MaterialStateProperty.all(EdgeInsets.all(10)),
-                    ),
+                  backgroundColor: MaterialStateProperty.all(Color(0xff517bca)),
+                  padding: MaterialStateProperty.all(EdgeInsets.all(100)),
+                ),
               ),
               SizedBox(height: 50),
               TextButton(
