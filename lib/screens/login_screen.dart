@@ -106,7 +106,7 @@ class LoginScreen extends StatelessWidget {
                         primary: Colors.transparent,
                         onSurface: Colors.transparent,
                         shadowColor: Colors.transparent,
-                        minimumSize: const Size.fromHeight(80),
+                        minimumSize: const Size.fromHeight(60),
                         //make color or elevated button transparent
                       ),
                     ),
