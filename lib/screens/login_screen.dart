@@ -39,7 +39,11 @@ class LoginScreen extends StatelessWidget {
           ],
         ),
         Form(
-          child: Container(
+          
+          child: Container(    
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),        
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(children: [
               TextFormField(
@@ -57,9 +61,7 @@ class LoginScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 child: Text("Login"),
-                style: ButtonStyle(
-                  
-                ),
+                style: ButtonStyle(),
               ),
             ]),
           ),
