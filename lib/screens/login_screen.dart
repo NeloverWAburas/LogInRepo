@@ -78,10 +78,11 @@ class LoginScreen extends StatelessWidget {
                     //padding: EdgeInsets.symmetric(horizontal: 10),
                     ),
               ),
+              SizedBox(height: 50),
               TextButton(
-                  child: const Text('Forgot Password?'),
-                  onPressed: () {/* ... */},
-                ),
+                child: const Text('Forgot Password?'),
+                onPressed: () {/* ... */},
+              ),
             ]),
           ),
         )
