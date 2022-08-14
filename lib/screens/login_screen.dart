@@ -96,8 +96,9 @@ class LoginScreen extends StatelessWidget {
                     ),
                     child: ElevatedButton(
                       onPressed: () {},
-                      child: Padding(
-                        padding:
+                      child: Container(
+                      
+                        margin:
                             EdgeInsets.symmetric(horizontal: 120, vertical: 13),
                         child: Text("Login"),
                       ),
