@@ -66,7 +66,7 @@ class LoginScreen extends StatelessWidget {
                       thickness: 1,
                       indent: 5,
                       endIndent: 5,
-                      color: Color(0xffd4d2d2),
+                      color: Color(0xffe5e3e3),
                     ),
                     TextFormField(
                       decoration: InputDecoration(
