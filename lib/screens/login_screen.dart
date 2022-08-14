@@ -7,9 +7,9 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: ListView(
-          children: [
-            Column(
       children: [
+        Column(
+          children: [
             Stack(
               alignment: Alignment.topCenter,
               children: [
@@ -53,12 +53,14 @@ class LoginScreen extends StatelessWidget {
                         side: BorderSide(
                           color: Theme.of(context).colorScheme.outline,
                         ),
-                        borderRadius: const BorderRadius.all(Radius.circular(12)),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(12)),
                       ),
                       child: Column(children: [
                         TextFormField(
                           decoration: InputDecoration(
-                            contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                            contentPadding:
+                                EdgeInsets.symmetric(horizontal: 10),
                             hintText: "Email or Phone number",
                             border: InputBorder.none,
                           ),
@@ -72,7 +74,8 @@ class LoginScreen extends StatelessWidget {
                         ),
                         TextFormField(
                           decoration: InputDecoration(
-                            contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                            contentPadding:
+                                EdgeInsets.symmetric(horizontal: 10),
                             hintText: "Password",
                             border: InputBorder.none,
                           ),
@@ -95,7 +98,7 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {},
                       child: Padding(
                         padding:
-                            EdgeInsets.symmetric(horizontal: 120, vertical: 10),
+                            EdgeInsets.symmetric(horizontal: 120, vertical: 30),
                         child: Text("Login"),
                       ),
                       style: ElevatedButton.styleFrom(
@@ -114,9 +117,9 @@ class LoginScreen extends StatelessWidget {
                 ]),
               ),
             )
-      ],
-    ),
           ],
-        ));
+        ),
+      ],
+    ));
   }
 }
