@@ -47,18 +47,18 @@ class LoginScreen extends StatelessWidget {
             child: Column(children: [
               TextFormField(
                 decoration: InputDecoration(
-                  contentPadding: EdgeInsets.symmetric(horizontal:5),
+                  contentPadding: EdgeInsets.symmetric(horizontal: 10),
                   hintText: "Email or Phone number",
                   border: InputBorder.none,
                 ),
               ),
               TextFormField(
                 decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(horizontal: 10),
                   hintText: "Password",
                   border: InputBorder.none,
                 ),
               ),
-
               ElevatedButton(
                 onPressed: () {},
                 child: Text("Login"),
