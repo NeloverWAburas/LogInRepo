@@ -8,16 +8,16 @@ class LoginScreen extends StatelessWidget {
       body: Stack(
         alignment: Alignment.topCenter,
         children: [
-        Image.asset("assets/images/background.png"),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Image.asset("assets/images/light-1.png"),
-            Image.asset("assets/images/light-2.png"),
-            Image.asset("assets/images/clock.png")
-          ],
-        ),
-      ],
+          Image.asset("assets/images/background.png"),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Image.asset("assets/images/light-1.png"),
+              Image.asset("assets/images/light-2.png"),
+              Image.asset("assets/images/clock.png")
+            ],
+          ),
+        ],
       ),
     );
   }

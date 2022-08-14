@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // Application name
       title: 'Flutter Hello World',
+      debugShowCheckedModeBanner: false,
       routes: {
         "/login_screen": (context) => const LoginScreen(),
       },
