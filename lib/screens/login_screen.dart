@@ -79,10 +79,12 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 25),
               DecoratedBox(
                 decoration: BoxDecoration(
-                    gradient: LinearGradient(colors: [
-                  Color(0xff517bca),
-                  Colors.white,
-                ]),),
+                  gradient: LinearGradient(begin: Alignment.topRight,
+              end: Alignment.bottomLeft,colors: [
+                    Color(0xff517bca),
+                    Colors.white,
+                  ],),
+                ),
                 child: ElevatedButton(
                   onPressed: () {},
                   child: Text("Login"),
