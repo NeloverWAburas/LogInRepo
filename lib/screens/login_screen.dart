@@ -83,8 +83,9 @@ class LoginScreen extends StatelessWidget {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Color(0xff517bca),
                       Colors.white,
+                      Color(0xff517bca),
+                      
                     ],
                   ),
                   borderRadius: BorderRadius.circular(5),
@@ -93,11 +94,11 @@ class LoginScreen extends StatelessWidget {
                   onPressed: () {},
                   child: Text("Login"),
                   style: ElevatedButton.styleFrom(
-          primary: Colors.transparent,
-          onSurface: Colors.transparent,
-          shadowColor: Colors.transparent,
-          //make color or elevated button transparent
-      ),
+                    primary: Colors.transparent,
+                    onSurface: Colors.transparent,
+                    shadowColor: Colors.transparent,
+                    //make color or elevated button transparent
+                  ),
                 ),
               ),
               SizedBox(height: 40),
