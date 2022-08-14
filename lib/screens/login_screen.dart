@@ -19,14 +19,13 @@ class LoginScreen extends StatelessWidget {
             ],
           ),
           Positioned(
-            top: 150,
+            top: 170,
             child: Text(
               "Login",
               style: TextStyle(
-                fontSize: 40,
-                color: Colors.white,
-                fontWeight: FontWeight.w300
-              ),
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
             ),
           )
         ],
