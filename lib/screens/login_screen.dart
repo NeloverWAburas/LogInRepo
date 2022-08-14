@@ -6,7 +6,8 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
+      body: Column(children: [
+Stack(
         alignment: Alignment.topCenter,
         children: [
           Image.asset("assets/images/background.png"),
@@ -36,6 +37,15 @@ class LoginScreen extends StatelessWidget {
           )
         ],
       ),
+       TextField(
+        decoration: InputDecoration(
+          hintText: "Email or Phone number",
+             border: OutlineInputBorder(), 
+        ),
+      ), 
+      ],)
+      
+      
     );
   }
 }
