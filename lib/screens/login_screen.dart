@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
             ],
           ),
           Positioned(
-            top: 170,
+            top: 190,
             child: Text(
               "Login",
               style: TextStyle(
