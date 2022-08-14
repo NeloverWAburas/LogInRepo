@@ -75,7 +75,7 @@ class LoginScreen extends StatelessWidget {
                 child: Text("Login"),
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Color(0xff517bca)),
-                  padding: MaterialStateProperty.all(EdgeInsets.all(100)),
+                  padding: MaterialStateProperty.all(EdgeInsets.symmetric(horizontal: 30)),
                 ),
               ),
               SizedBox(height: 50),
