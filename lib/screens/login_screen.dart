@@ -45,16 +45,22 @@ class LoginScreen extends StatelessWidget {
               TextFormField(
                 decoration: InputDecoration(
                   hintText: "Email or Phone number",
-                  border: OutlineInputBorder(),
+                  border: InputBorder.none,
                 ),
               ),
               TextFormField(
                 decoration: InputDecoration(
                   hintText: "Password",
-                  border: OutlineInputBorder(),
+                  border: InputBorder.none,
                 ),
               ),
-              ElevatedButton(onPressed: (){}, child: Text("Login")),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text("Login"),
+                style: ButtonStyle(
+                  
+                ),
+              ),
             ]),
           ),
         )
