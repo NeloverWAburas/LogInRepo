@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
               ),
               Image.asset(
                 "assets/images/light-2.png",
-                height: 120,
+                height: 100,
               ),
               Image.asset("assets/images/clock.png")
             ],
