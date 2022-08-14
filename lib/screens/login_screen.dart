@@ -38,6 +38,7 @@ class LoginScreen extends StatelessWidget {
             )
           ],
         ),
+        SizedBox(height:20),
         Form(
           child: Container(
             decoration: BoxDecoration(
