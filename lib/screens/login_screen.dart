@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -17,6 +18,10 @@ class LoginScreen extends StatelessWidget {
               Image.asset("assets/images/clock.png")
             ],
           ),
+          Positioned(
+            top: 10,
+            child: Text("Login"),
+            )
         ],
       ),
     );
