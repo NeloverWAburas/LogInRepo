@@ -42,8 +42,8 @@ class LoginScreen extends StatelessWidget {
         Form(
           child: Container(
             decoration: BoxDecoration(
-              //color: Colors.red,
-            ),
+                //color: Colors.red,
+                ),
             margin: EdgeInsets.symmetric(horizontal: 20),
             child: Column(children: [
               Card(
